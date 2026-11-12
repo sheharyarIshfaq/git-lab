@@ -1,1 +1,1 @@
-Classification in machine learning is the task of assigning each input to one of a fixed set of predefined categories.
+I kept the lower threshold of 0.4. At 0.6 the model missed 7 of the 14 attacks, and at 0.4 it misses only 2, at the cost of 3 more false alarms. For an intrusion detection system that trade is worth it: a false alarm costs an analyst a few minutes to check, while a missed attack is an intruder nobody is looking for.
